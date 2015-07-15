@@ -1,0 +1,28 @@
+{
+  "name": "riot-but-not-LoL",
+  "version": "1.0.0",
+  "description": "Playing with riot",
+  "main": "index.js",
+  "scripts": {
+    "riot": "riot erica.tag erica.js & node api/server.js",
+    "test": "",
+    "start": "node api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jasonspd/riot-but-not-LoL.git"
+  },
+  "keywords": [
+    "riot"
+  ],
+  "author": "Jason Luu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasonspd/riot-but-not-LoL/issues"
+  },
+  "homepage": "https://github.com/Jasonspd/riot-but-not-LoL",
+  "dependencies": {
+    "hapi": "^8.8.0",
+    "riot": "^2.2.2"
+  }
+}
